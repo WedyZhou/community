@@ -1,0 +1,237 @@
+body {
+	font: 16px/1.5 "Helvetica", "Hiragino Sans GB", "Microsoft Yahei", Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+a {
+	color: rgb(49, 160, 223); text-decoration: none;
+}
+.zanzhu {
+	padding-left: 80px;
+}
+.mainListT {
+	text-align: justify; text-indent: 2em; font-size: 16px;
+}
+.mainListT.online {
+	text-align: justify; text-indent: 2em; font-size: 16px; display: inline;
+}
+.mainList {
+	text-align: justify; line-height: 2em; font-size: 16px;
+}
+.mainTitle {
+	line-height: 2em; font-size: 18px;
+}
+.mainPage {
+	text-align: justify; line-height: 2em; text-indent: 2em; font-size: 18px;
+}
+.windows {
+	height: 20em;
+}
+#banner_1 {
+	background-image: url("../images/download3.png");
+}
+#banner_2 {
+	background-image: url("../images/download4.png");
+}
+.header .banner {
+	background-position: center; min-height: 300px; background-repeat: no-repeat; background-size: auto 300px;
+}
+.header .banner .title {
+	color: rgb(255, 255, 255); padding-top: 30px; font-size: 25px; text-shadow: 1px 2px 2px #333;
+}
+.header .banner .title h1 {
+	margin: 0px;
+}
+.header .nav {
+	top: 0px; width: 100%; position: fixed; z-index: 999; background-color: rgb(18, 43, 64);
+}
+.header .nav ul {
+	list-style: none; padding: 0px; color: rgb(255, 255, 255);
+}
+.header .nav a {
+	color: rgb(204, 204, 204); font-size: 15px; display: block;
+}
+.header .nav a:hover {
+	border-radius: 3px; color: rgb(0, 0, 0); background-color: rgb(175, 217, 238);
+}
+.header .nav > ul > li {
+	padding: 0px; height: 60px; line-height: 60px; float: left; position: relative; cursor: pointer;
+}
+.header .nav > ul > li.inactive:hover a {
+	color: rgb(153, 153, 153);
+}
+.header .nav > ul > li a {
+	margin: 0px 7px; padding: 0px 6px;
+}
+.header .nav > ul > li:first-child a {
+	margin: 0px 7px; padding-left: 6px;
+}
+.header .nav li > ul {
+	padding: 0px; left: 0px; top: 60px; width: 200px; display: none; position: absolute; background-color: rgb(14, 44, 78);
+}
+.header .nav li > ul li {
+	line-height: normal;
+}
+.header .nav li > ul li a {
+	padding: 10px 20px;
+}
+.header .nav li:hover > ul {
+	display: block;
+}
+.wrap {
+	margin: 0px auto; width: 85%;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.footer {
+	text-align: center; color: rgb(153, 153, 153); line-height: 40px; margin-top: 20px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.footer .footer-box {
+	margin: 20px auto; width: 580px;
+}
+.footer .footer-box .organizor {
+	width: 250px; text-align: center; line-height: 40px; float: left;
+}
+.footer .footer-box .organizor a {
+	background: url("../images/xdlogo.jpg") no-repeat left / 40px 40px; color: rgb(153, 153, 153); line-height: 40px; padding-left: 50px; margin-left: 20px; display: block;
+}
+.footer .footer-box .organizor a:hover {
+	color: rgb(49, 160, 223);
+}
+.footer .footer-box .npc {
+	width: 300px; text-align: right; padding-right: 20px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+.body {
+	overflow: hidden; padding-top: 20px;
+}
+.body .intro {
+	width: 70%; float: left;
+}
+.body .intro p {
+	margin-top: 10px;
+}
+.body .intro a {
+	color: rgb(49, 160, 223);
+}
+.body .intro .dates {
+	margin-top: 30px;
+}
+dl.horizontal {
+	overflow: hidden; margin-top: 10px;
+}
+dl.horizontal dt {
+	width: 250px; text-align: right; line-height: 2em; clear: both; float: left;
+}
+dl.horizontal dd {
+	line-height: 2em; margin-left: 270px;
+}
+img {
+	border-radius: 3px;
+}
+.sponsors {
+	width: 30%; overflow: hidden; float: left;
+}
+.sponsors .sponsor {
+	margin: 0px 20px; width: 95%;
+}
+.sponsors .sponsor img {
+	margin: 10px 0px; width: 90%; height: 90%;
+}
+.sponsors :first-child.sponsor {
+	margin-bottom: 15px;
+}
+.org .col {
+	width: 50%; float: left;
+}
+.org .col .committee {
+	margin-bottom: 20px;
+}
+.org .col h2 {
+	margin: 10px 0px; text-align: center;
+}
+.org .col h3 {
+	font-size: 16px; margin-top: 20px;
+}
+.org .col dl.horizontal dt {
+	width: 200px;
+}
+.org .col dl.horizontal dd {
+	margin-left: 220px;
+}
+.call-for-papers {
+	width: 730px; float: left;
+}
+.cfp-aside {
+	width: 250px; margin-left: 0px; float: left;
+}
+.cfp-aside h2 {
+	text-align: center;
+}
+.cfp-aside h3 {
+	text-align: center;
+}
+.cfp-aside .dates dl dt {
+	width: 200px;
+}
+.cfp-aside .dates dl dd {
+	margin-left: 220px;
+}
+.cfp-aside .sponsors {
+	width: 250px;
+}
+table.past {
+	width: 100%; text-align: center; border-collapse: collapse;
+}
+table.past tr {
+	border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+table.past tr:hover {
+	background-color: rgb(221, 221, 221);
+}
+table.past tr:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+table.past td {
+	padding: 8px 0px;
+}
+.past .past-item {
+	width: 50%; padding-right: 20px; float: left; box-sizing: border-box;
+}
+.past .past-item span {
+	color: rgb(153, 153, 153); font-size: 14px; margin-left: 10px;
+}
+.dates em {
+	color: red; font-style: normal;
+}
+span.required {
+	color: red;
+}
+.listblock p {
+	line-height: 35px; padding-left: 4px; font-size: 15px; margin-top: 18px; display: block;
+}
+.papertitle ul li p {
+	line-height: 35px; padding-left: 4px; font-size: 15px; margin-top: 18px; display: block;
+}
+.listblock span {
+	color: rgb(49, 160, 223); font-weight: bold;
+}
+.listblock h1 {
+	line-height: 50px; padding-left: 4px; font-size: 20px; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.listblock .solo {
+	width: 100%; line-height: 28px; padding-left: 4px; font-size: 18px; font-weight: normal; margin-top: 12px; float: left;
+}
+.listblock .double {
+	width: 50%; line-height: 28px; padding-left: 4px; font-size: 18px; font-weight: normal; margin-top: 12px; float: left;
+}
+.listblock .trable {
+	width: 33%; line-height: 28px; padding-left: 4px; font-size: 18px; font-weight: normal; margin-top: 12px; float: left;
+}
+.listname {
+	padding: 5px 0px 35px; width: 998px; margin-left: 0px; float: left; background-color: rgb(255, 255, 255);
+}
+.online {
+	display: inline;
+}
+.listname h2 {
+	font-size: 18px;
+}
