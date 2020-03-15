@@ -47,4 +47,9 @@ public class IndexController {
     public  String GetWall_showHtml( Model model){
         return "Wall_show";
     }
+    @GetMapping("/ESTC2020")
+    public  String getESTC_2020(){
+        return "ESTC2020";
+
+    }
 }

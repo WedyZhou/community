@@ -11,57 +11,10 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/index-a1409686d1.css">
     <link rel="stylesheet" href="./css/csslider.light.css">
+    <script src="./js/estcpage.js"></script>
   </head>
   <body>
-    <div class="header">
-           <br><br>
-    <div id="slider1" class="csslider">
-                <input type="radio" name="slides" id="slides_1" checked="">
-		<input type="radio" name="slides" id="slides_2">
-          <ul>
-                <li>
-                     <div class="banner" id="banner_2">
-                        <div class="title wrap">
-                            <h1>CCF ESTC 2020</h1>
-                            <div>第18届全国嵌入式系统大会</div>
-                            <div>2020 9月20-22日，中国，四川，成都</div>
-                        </div>
-                    </div>
-		</li>
-                <li>
-                     <div class="banner" id="banner_1">
-                        <div class="title wrap">
-                            <h1>CCF ESTC 2019</h1>
-                            <div>第18届全国嵌入式系统大会</div>
-                            <div>2020 9月20-22日，中国，四川，成都</div>
-                        </div>
-                    </div>
-		</li>           
-         </ul>
-                <div class="arrows">
-			<label for="slides_1"></label>
-			<label for="slides_2"></label>
-		</div>
-		<div class="navigation">
-			<label for="slides_1"></label>
-			<label for="slides_2"></label>
-		</div>	
-      </div>
-      <div class="nav">
-        <ul class="wrap clearfix">
-         <li><a href="./Index">大会首页</a></li>
-         <li><a href="./Plan">会议日程</a></li>
-         <li><a href="./Organization">组织机构</a></li>
-         <li><a href="./Paper">论文征稿</a></li><!--end of here-->
-         <li><a href="./Guest">特邀报告</a></li>
-         <li><a href="./Register">会议注册</a></li>
-         <li><a href="./Wall_show">墙报展示</a></li>
-         <li><a href="./HotelAndTraffic">住宿交通</a></li>
-         <li><a href="./Support">诚招赞助</a></li>
-         <li><a href="./Contact">会务组联系方式</a></li>
-        </ul>
-      </div>
-    </div>
+    <div class="header" id="header"></div>
     <div class="wrap body">
       <div class="intro">
         <h2>会务组联系方式</h2>
@@ -82,9 +35,10 @@
        <div class="sponsors">
         <div class="sponsor">
           <h3>最新进展：</h3>
-           <marquee class="windows" direction="up" scrolldelay="180" onmouseover="stop()" onmouseout="start()">
-                        <b class="mainTitle">置顶：</b>
+           <marquee class="windows" direction="up" scrolldelay="180" onmouseover="stop()" onmouseout="start()" id = "newTop">
                         <!--
+                        <b class="mainTitle">置顶：</b>
+
                         <p class="mainTitle"><c style="color:red">PPT模板、POSTER模板已发布，详情请见：</c><a href="http://www.cvnis.net/estc2019/Wall_show.html">墙报展示</a>
                         </p>
                         <b class="mainTitle">2019.09.01 ：</b>          
@@ -102,8 +56,9 @@
                         <b class="mainTitle">2019.05.09 ：</b> 
                         <p class="mainTitle">《软件学报》智能嵌入式系统专刊征文通知<a href="http://www.cvnis.net/estc2019/index_1.html">查看详情</a>
                         </p>
-                        -->
+
                <p class="mainTitle"><c style="color: red;">四川大学要举办ESTC2020啦！！！！</c> </p>
+               -->
           </marquee>
         </div> 
         <div class="sponsor">
@@ -132,13 +87,15 @@
         -->
       </div>
     </div>
-    <div class="footer">
-      <div class="wrap">
-        <div class="footer-box clearfix">
-          <div class="organizor npc"><span>第18届全国嵌入式系统大会</span></div>
-          <div class="organizor scu"><a href="http://www.scu.edu.cn/">四川大学</a></div>
-        </div>
-      </div>
+    <div class="footer" id="footer"></div>
     </div>
+    <script>
+        window.onload=function (){
+            getHeader("header");
+            getNewTop("newTop");
+            getFooter("footer");
+        }
+
+    </script>
 </body>
 </html>
