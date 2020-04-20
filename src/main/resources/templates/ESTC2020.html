@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>ESTC 2020</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -27,32 +27,39 @@
 <DIV class="wrap body">
     <DIV class="intro">
         <H2 style="display: inline-block;">大会首页</H2><BR>
-        <P class="mainPage">           继2001-2018年成功举办17届CCF全国嵌入式系统大会后，第18届CCF
-            全国嵌入式系统大会(CCF ESTC 2020)将于2020年9月20日至22日在四川成都举行。本届会议由中国计算机学会(CCF)主办，CCF嵌入式系统专业委员会与四川大学联合承办。本届学术会议旨在加强从事嵌入式系统研究领域国内外学者之间的联系与交流，了解相关国际发展动态和研究热点，促进我国多学科交叉融合与嵌入式系统产业的发展。会议将邀请院士和国内外嵌入式系统领域的顶级专家学者作大会特邀报告，还设有专题论坛和分会场口头报告，科技成果展示、学术论文交流等形式多样的活动。
-        </P><B class="mainTitle" style="color: red;">ESTC 2020大会邀请函 <A href="http://www.cvnis.net/estc2019/files/ESTC_2019.pdf">点击下载</A></B>
-
+        <P class="mainPage">          继2001-2019年成功举办17届CCF全国嵌入式系统大会后，第18届CCF全国嵌入式系统大会(CCF ESTC 2020)将于2020年10月17日至18日在四川成都举行。本届会议由中国计算机学会(CCF)主办，CCF嵌入式系统专业委员会与四川大学联合承办。本届学术会议主要关注“智能嵌入式系统”，拟聚焦新兴领域和新兴系统中智能嵌入式系统的基础科学理论、关键技术方法与系统、以及嵌入式系统在深度学习、人工智能等领域的扩展和应用。会议将邀请国内外嵌入式系统领域的顶级专家学者作大会特邀报告，还设有专题论坛和分会场口头报告，科技成果展示、学术论文交流等形式多样的活动。
+        <!--
+        </P><B class="mainTitle" style="color: red;">ESTC 2020大会邀请函（待定链接为17届）<A href="http://www.cvnis.net/estc2019/files/ESTC_2019.pdf">点击下载</A></B>
+        -->
         <DIV>
-            <H3>赞助商：</H3><BR><IMG style="margin: 5px 15px; width: 18%;" src="./images/scu-logo.png.png">
+            <H3>赞助商：<a href="./Support">诚招赞助</a></H3>
+        <!--
+            <BR><IMG style="margin: 5px 15px; width: 18%;" src="./images/scu-logo.png.png">
             <IMG style="margin: 5px 15px; width: 20%; height: 20%;" src="./images/scu-logo.png.png">
+         -->
         </DIV></DIV>
     <DIV class="sponsors">
         <DIV class="sponsor">
-            <H3>最新进展：</H3>
+            <H2><b>最新进展：</b></H2>
             <MARQUEE class="windows" onmouseover="stop()" onmouseout="start()" scrolldelay="180"
                      direction="up" id = "newTop">
             </MARQUEE></DIV>
-        <DIV class="sponsor">
-            <H3>主办单位：</H3><IMG src="./images/scu-logo.png">         </DIV>
-        <DIV class="sponsor">
-            <H3>承办单位：</H3><IMG style="margin: 5px 0px;" src="./images/scu-logo.png">
-            <IMG style="margin: 5px 0px;" src="./images/scu-logo.png">
+        <DIV class="sponsor" id="ZhuBanId">
+            <H2 ><b>主办单位：</b></H2><IMG src="./images/ccflogo.png">
         </DIV>
-        <DIV class="sponsor">
-            <H3>协办单位：</H3><BR>
-            <P style="font-size: 1.2em;">***********</P><IMG src="./images/scu-logo.png">
-            <IMG src="./images/scu-logo.png">
-            <IMG src="./images/scu-logo.png">                         <IMG
-                src="./images/scu-logo.png">         </DIV></DIV></DIV>
+        <DIV class="sponsor" id="ChenBanId">
+            <H2><b>承办单位：</b></H2>
+            <IMG style="margin: 5px 0px;" src="./images/CCFQ.jpg">
+            <IMG style="margin: 5px 0px;" src="./images/scu.png">
+        </DIV>
+        <DIV class="sponsor" id="XieBanId">
+            <H2 ><b>协办单位：</b></H2>
+            <IMG style="margin: 5px 0px;" src="./images/chongda.png">
+            <IMG style="margin: 5px 0px;" src="./images/chengdian_logo.png">
+            <IMG style="margin: 5px 0px;" src="./images/xidianlogo.png">
+        </DIV>
+    </DIV>
+</DIV>
 <DIV class="footer" id="footer"></DIV>
 <script>
     window.onload=function(){

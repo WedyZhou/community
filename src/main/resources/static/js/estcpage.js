@@ -1,7 +1,7 @@
 function getNewTop( div_id) {
     document.getElementById(div_id).innerHTML="<B class=\"mainTitle\">置顶：</B> " +
-        "<p class=\"mainTitle\"><c style=\"color: red;\">四川大学要举办ESTC2020啦！！！！</c> </p>" +
-        "<p class=\"mainTitle\"><c style=\"color: blue;\">这仅是一个测试网站的界面</c> </p>";
+        "<p class=\"mainTitle\"><a style=\"color: red;\" href=\"https://www.journals.elsevier.com/journal-of-systems-architecture/call-for-papers/special-issue-on-ubiquitous-and-intelligent-embedded-systems\"> Journal of Systems Architecture Special Issue已经申请下来</a> </p>"+
+        "<p class=\"mainTitle\"><c style=\"color: blue;\">这仅是一个测试网站的界面 2020.4.20测试</c> </p>";
 
 }
 
@@ -53,4 +53,10 @@ function getFooter(div_id) {
         "          <div class=\"organizor scu\"><a href=\"http://www.scu.edu.cn/\">四川大学</a></div>\n" +
         "        </div>" ;
 
+}
+function getZhuBanDanWei(div_id) {
+    document.getElementById(div_id).innerHTML="";
+}
+function getChengBanDanWei() {
+    document.getElementById(div_id).innerHTML="";
 }
